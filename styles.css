@@ -1,0 +1,145 @@
+<style> 
+
+body{
+        background-color:r(235, 227, 227);
+            color: rgba(39, 58, 230, 0.664);
+            text-transform: inherit;
+            font-family: Helvetica Neve, Helvetica, Arial, sans-serif;
+            font-family: cursive;
+            margin:0;
+            padding:0;
+            text-align: center;
+            position: relative;
+                }
+        
+        header {
+        background-size: 100%;
+        background-position: center;
+        height:300px;
+        padding:10px 300px 10px 300px;
+        margin-top: 0;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        
+        }
+
+        h1 {
+            text-align: center;
+        }
+        header .mobile {
+            display: none;
+        }
+    
+        ul {
+            text-align: center;
+        }
+        
+        /*RESPONSIVE RULES*/
+        
+        
+        @media screen and(max-width:715px) {
+        header{
+            height: 200px;
+        }
+         header .mobile{
+             display: inline-block;
+         }    
+         header .desktop {
+             display: none;
+            }
+        }
+        
+        section div {
+        background-color: white;
+        }
+        section{
+        background:white;
+        color:gray;
+        padding:20px;
+        display: flex;
+        flex-direction:row;
+        }
+        
+        /*FEATURES*/
+        
+        .features{
+        background: rgb(166, 197, 233);
+        color: gray;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: flex;
+        }
+
+        .content {
+            font-size: 27px;
+        }
+        
+        .features figure {
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            display: inline-flex;
+            flex-direction: row;
+            width: 400px 400px;
+                }
+        
+
+        }
+        
+        /*LIST ITEMS*/
+        
+        nav ul{
+        margin: 0;
+        padding:0;
+        list-style-type: none;
+        }
+        
+        nav li{
+        display:inline-block;
+        margin-right:20px;
+        }
+        
+        
+        /*BUTTON*/
+        
+         button{
+        
+        background:rgb(216, 208, 208);
+            border:none;
+                color:black;
+                    border: 1px outset blue;
+                        background-color: rgb(21, 182, 48);
+                            height:20px;
+                                width:100px;
+                                    cursor: pointer;
+                                    margin: 10px;                                    
+                                                    }
+        
+                                     .butt:hover {
+                                        background-color: blue;
+                                             color:rgb(157, 207, 19);
+                                            }
+         
+         
+         /*RESPONSIVE RULES*/
+        @media screen and (max-width: 715px) {
+            .features {
+            
+            }
+        }
+        
+        /*FOOTER*/
+         
+            footer{
+            color: gray;
+            font: 12px;
+            margin: 0px;
+            text-transform: uppercase;
+            align-content: center;
+            text-align: center;
+    
+            }
+    
+
+
